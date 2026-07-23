@@ -8,7 +8,7 @@
 set -euo pipefail
 
 APP_DIR="/opt/simple-blog"
-BRANCH="${1:-main}"
+BRANCH="master"
 
 cd "$APP_DIR"
 

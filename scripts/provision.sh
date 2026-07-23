@@ -13,8 +13,8 @@
 # ------------------------------------------------------------------
 set -euo pipefail
 
-REPO_URL="https://github.com/VictorOjedokun/blog-app.git"
-BRANCH="${2:-main}"
+REPO_URL="https://github.com/VictorOjedokun/blogapp.git"
+BRANCH="master"
 APP_DIR="/opt/simple-blog"
 
 if [ -z "$REPO_URL" ]; then
