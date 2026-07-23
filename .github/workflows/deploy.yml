@@ -55,4 +55,4 @@ jobs:
           script: |
             export GHCR_USER="${{ github.actor }}"
             export GHCR_TOKEN="${{ secrets.GITHUB_TOKEN }}"
-            bash /opt/simple-blog/scripts/deploy.sh main
+            bash /opt/simple-blog/scripts/deploy.sh master
